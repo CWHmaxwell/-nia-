@@ -1,0 +1,15 @@
+﻿<Window x:Class="gamework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gamework"
+        mc:Ignorable="d"
+        
+        Title="~nia~" Height="960" Width="1280" Closing="Window_Closing" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas x:Name="canvas" Loaded="canvas_Loaded" Background="White" Focusable="True">
+            
+        </Canvas>
+    </Grid>
+</Window>
